@@ -25,23 +25,23 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: inherit;
+  color: #000000;
   text-decoration: none;
 }
 .part-logo {
   color: var(--accent-color);
 }
-.navigation-list {
+.navigation {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation-item-link {
-  color: inherit;
+.navigation-link {
+  color: var(--main-text-color);
 }
-.navigation-item-link:hover,
-.navigation-item-link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--accent-color);
 }
 .active {
@@ -52,6 +52,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contact-link {
   color: var(--secondary-text-color);
 }
 .contact-item:hover,
@@ -87,18 +90,18 @@ body {
 }
 
 /*-----------------------SECTION ADVANTAGES----------------------*/
-.advantages-title {
+.advantages-title-hidden {
   visibility: hidden;
 }
-.advantages-list {
+.advantages {
   font-size: 14px;
 }
-.advantages-item-title {
+.advantages-title {
   font-weight: 700;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
-.advantages-item-text {
+.advantages-text {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -111,30 +114,30 @@ body {
   line-height: 1.17;
   text-align: center;
 }
-.team-list {
+.team {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.team-item-title {
+.team-name {
   font-weight: 500;
 }
-.team-item-text {
+.team-text {
   font-weight: normal;
   color: var(--secondary-text-color);
 }
 
 /*--------------------FOOTER---------------------------*/
-.address-list {
+.adress {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
-.address-item-link {
+.adress-link {
   color: var(--third-text-color);
 }
-.address-item-mail,
-.address-item-tel {
+.adress-mail,
+.adress-tel {
   color: rgba(255, 255, 255, 0.6);
 }
 /*--------------------PORTFOLIO------------------------*/
@@ -155,16 +158,16 @@ body {
   background-color: var(--accent-color);
   color: var(--third-text-color);
 }
-.filter-link {
-  color: inherit;
+.gallery-link {
+  color: var(--main-text-color);
 }
-.filter-title {
+.gallery-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.filter-text {
+.gallery-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
